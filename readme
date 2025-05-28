@@ -1,0 +1,54 @@
+////////////////////////////////////////////////////////////////////////////
+// Instalar o Grunt JS /////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//
+// Na consola de comando do Git Bach ingresar na pasta do projeto
+// $ cd "C:\Users\francomasa\Projetos\curso_ebac_frontend\gruntJS"
+// 
+// instalar de forma global
+// $ npm i -g grunt-cli
+// para atualizar a versão mais recente
+// $ npm install -g npm@11.3.0
+//
+// instalar $ npm init
+//
+// instalar o grunt localmente na pasta do projeto
+// $ npm i --save-dev grunt
+//
+// No arquivo package.json adicionar
+// "scripts": {
+//    "grunt": "grunt",
+//    "test": "echo \"Error: no test specified\" && exit 1"
+//  },
+//
+// Criar na pasta do projeto um arquivo Gruntfile.js
+//
+// para executar o projeto com GruntJS na consola
+// $ npm run grunt
+// si quiser executar uma funcão especifica
+// $ npm run grunt olaGrunt
+//
+//  Use Grunt para compilar LESS
+// $ npm install --save-dev grunt-contrib-less
+//
+//  Use Grunt para compilar sass
+// $ npm install --save-dev grunt-contrib-sass
+//
+// Install plug-in para executar tarefas em paralelo
+// $ npm install --save-dev grunt-concurrent
+//
+// Observar mudanças nos arquivos com o Grunt e atualiza automaticamente
+// $ npm install --save-dev grunt-contrib-watch
+//
+// PLugin para reemplazar o style de production para dev
+// $ npm install --save-dev grunt-replace
+//
+// Para mimificar o arquivo html istalamos o plugin
+// $ npm install --save-dev grunt-contrib-htmlmin
+//
+// Para deletar pastas e archivos temporais
+// $ npm install grunt-contrib-clean --save-dev 
+// grunt.loadNpmTasks('grunt-contrib-clean');
+//
+// Para comprimir arquivos JS instalar grunt-contrib-uglify
+// $ npm install --save-dev grunt-contrib-uglify
